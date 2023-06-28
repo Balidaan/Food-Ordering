@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="orderstyle.css">
+</head>
+</body>
+</html>
+<html>
+<head>
+  <title>Order Summary - Food Ordering Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-image: url('https://wallpaperaccess.com/full/4117465.jpg' ); background-repeat:no-repeat;  background-size: 100%; ">
+  <header style="background-color: black;">
+    <!-- Add your logo and navigation menu here -->
+    <h1 style="color: rgb(246, 46, 24);">Order Summary</h1>
+  </header>
+  
+  <main>
+    <h2>Order Details</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Repeat the following block for each item in the order -->
+        <tr>
+          <td>Item Name</td>
+          <td>Quantity</td>
+          <td>$XX.XX</td>
+        </tr>
+        <!-- End of item block -->
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total:</td>
+          <td>$Total Amount</td>
+        </tr>
+      </tfoot>
+    </table>
+    
+    <div class="customer-details">
+      <h3>Customer Information</h3>
+      <p>Name: <input type="text"></p>
+      <p>Phone: <input type="number"></p>
+      <p>Email: <input type="email"></p>
+    </div>
+    
+    <div class="delivery-details">
+      <h3>Delivery Information</h3>
+      <p>Address: <input type="text"></p>
+      <p>Delivery Time: <input type="time"></p>
+      <!-- Add more delivery details if necessary -->
+    </div>
+    
+    <div class="payment-details">
+      <h3>Payment Information</h3>
+      <p>Payment Method: <select>
+        <option>COD</option>
+        <option>Cards</option>
+        <option>Gpay</option>
+      </select></p>
+      <p>Total Amount: $Total Amount</p>
+      <!-- Add more payment details if necessary -->
+    </div>
+    
+    <button class="btn">Confirm Order</button>
+  </main>
+  
+  
+  
+  <!-- Add scripts or additional stylesheets as necessary -->
+</body>
+</html>
